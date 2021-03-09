@@ -1,0 +1,180 @@
+.blur {
+  filter: blur(10px) brightness(70%);
+  width: 100%;
+}
+
+body {
+  color:white;
+  background-color:black;
+    font-family: sans-serif;
+    padding: 0;
+}
+
+.front-text {
+  font-weight: 800;
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  width: 100%;
+  margin-top: 300px;
+  font-size: 100px;
+  color:white;
+}
+
+.front-text span {
+  color:#dc143c;
+  font-size:120px;
+  text-shadow: -3px 3px 0 #fff,
+                  3px 3px 0 #fff,
+                 3px -3px 0 #fff,
+                -3px -3px 0 #fff;
+}
+
+.bottomfront-text {
+  position:absolute;
+  margin-top:480px;
+  text-align:center;
+  z-index: 3;
+  font-size:25px;
+  color:LightSkyBlue;
+  text-decoration:none;
+}
+
+.bottomfront-text:hover {
+  font-weight:bold!important;
+}
+
+.fact-text {
+  font-size: 50px;
+}
+
+.bottomfact-text {
+  font-size: 25px;
+}
+
+.textthing {
+  text-align:center;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.textthing span {
+  color:#dc143c;
+  font-weight:700;
+}
+
+.clickhere {
+  display: flex;
+  justify-content: center;
+}
+
+html {
+  scroll-behavior:smooth;
+}
+
+.kendrickbio {
+  width: 300px;
+  border-radius: 150px;
+  margin-left: 100px;
+  margin-top: 50px;
+  filter: brightness(70%);
+}
+
+.kendrickbiotexttitle {
+  font-size:25px;
+  font-weight:bold;
+  margin-right:-150px;
+  text-align:center;
+  margin-top:-200px;
+}
+
+.kanyebio {
+  width: 300px;
+  border-radius: 150px;
+  margin-left: 100px;
+  margin-top: 50px;
+  filter: brightness(70%);
+}
+
+.kendrickbiotext {
+  margin-right:250px;
+  text-align:center;
+  justify-content:center;
+  margin-left:450px;
+  margin-right:300px;
+}
+
+.soundcloud {
+  margin-right:65px;
+  margin-left:65px;
+}
+
+.burgermenu div {
+  background-color:white;
+  height:5px;
+  width:50px;
+  margin:10px;
+}
+
+.burgermenu {
+  position:absolute;
+  z-index:3;
+  cursor:pointer;
+}
+
+.links a {
+  text-decoration:none;
+  color:white;
+  font-weight:bold;
+  margin-right:20px;
+  transition:0.5s;
+}
+
+.links a:hover {
+  color:lightblue;
+  transition:0.5s;
+}
+
+.links {
+  position:absolute;
+  z-index:3;
+  margin-left:65px;
+  padding:19px;
+  opacity:0;
+  transform: translateY(-100%);
+  transition:opacity 0.5s ease, transform 0.5s ease;
+}
+
+.linksactive {
+  opacity:100;
+  transform: translateY(0%);
+  transition:opacity 0.5s ease, transform 0.5s ease;
+}
+
+.line1 {
+  transition: transform 0.5s ease;
+}
+
+.line1active {
+  transform: rotate(-45deg) translate(-13px,8px);
+  transition: transform 0.5s ease;
+}
+
+.line2 {
+  opacity:100;
+  transition: opacity 0.5s ease;
+}
+
+.line2active {
+  opacity:0;
+  transition: opacity 0.5s ease;
+}
+
+.line3 {
+  transition: transform 0.5s ease;
+}
+
+.line3active {
+  transform: rotate(45deg) translate(-12px,-8px);
+  transition: transform 0.5s ease;
+}
