@@ -111,7 +111,7 @@ html {
 .kanyebiotexttitle {
   font-size:25px;
   font-weight:bold;
-  margin-right:-150px;
+  margin-right:150px;
   text-align:center;
   margin-top:-200px;
 }
@@ -121,7 +121,7 @@ html {
   text-align:center;
   justify-content:center;
   margin-left:450px;
-  margin-right:300px;
+  margin-right:500px;
 }
 
 .soundcloud {
