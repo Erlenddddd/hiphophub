@@ -1,0 +1,151 @@
+body {
+  background-color:#000;
+  font-family: sans-serif;
+}
+
+.uppertext {
+  text-align:center;
+  color:#dc143c;
+  font-size:50px;
+  font-weight:800;
+  margin-bottom:30px;
+}
+
+.uppertext span {
+  text-align:center;
+  color:white;
+}
+  
+  .horizontalline { 
+    margin-left: 20%; margin-right: 20%; height: 2px; background-color: white; 
+  }
+  
+.loweruppertext {
+  font-size:30px;
+  color:white;
+  font-weight:bold;
+  text-align:center;
+  margin-top:30px;
+}
+
+.loweruppertext span {
+  color:#dc143c;
+  margin-top:30px;
+}
+
+.videolink1 {
+display: flex; justify-content: center;
+}
+
+.videolink1text {
+  color:white;
+  text-align:center;
+  padding:60px;
+}
+
+.videolink1text span {
+  color:#dc143c;
+  font-weight:BOLD;
+}
+
+.videolink2text {
+  color:white;
+  text-align:center;
+  padding:60px;
+}
+
+.videolink2text span {
+  color:#dc143c;
+  font-weight:BOLD;
+}
+
+.videolink3text {
+  color:white;
+  text-align:center;
+  padding:60px;
+}
+
+.videolink3text span {
+  color:#dc143c;
+  font-weight:BOLD;
+}
+
+.videolink2 {
+display: flex; justify-content: center;
+}
+
+.videolink3 {
+display: flex; justify-content: center;
+}
+
+.burgermenu div {
+  background-color:white;
+  height:5px;
+  width:50px;
+  margin:10px;
+}
+
+.burgermenu {
+  position:absolute;
+  z-index:3;
+  cursor:pointer;
+}
+
+.links a {
+  text-decoration:none;
+  color:white;
+  font-weight:bold;
+  margin-right:20px;
+  transition:0.5s;
+}
+
+.links a:hover {
+  color:lightblue;
+  transition:0.5s;
+}
+
+.links {
+  position:absolute;
+  z-index:3;
+  margin-left:65px;
+  padding:19px;
+  opacity:0;
+  transform: translateY(-100%);
+  transition:opacity 0.5s ease, transform 0.5s ease;
+}
+
+.linksactive {
+  opacity:100;
+  transform: translateY(0%);
+  transition:opacity 0.5s ease, transform 0.5s ease;
+}
+
+.line1 {
+  transition: transform 0.5s ease;
+}
+
+.line1active {
+  transform: rotate(-45deg) translate(-13px,8px);
+  transition: transform 0.5s ease;
+}
+
+.line2 {
+  opacity:100;
+  transition: opacity 0.5s ease;
+}
+
+.line2active {
+  opacity:0;
+  transition: opacity 0.5s ease;
+}
+
+.line3 {
+  transition: transform 0.5s ease;
+}
+
+.line3active {
+  transform: rotate(45deg) translate(-12px,-8px);
+  transition: transform 0.5s ease;
+}
+
+p { margin: 0; }
