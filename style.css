@@ -88,20 +88,20 @@ html {
   margin-top:-200px;
 }
 
-.kanyebio {
-  width: 300px;
-  border-radius: 150px;
-  margin-left: 100px;
-  margin-top: 50px;
-  filter: brightness(70%);
-}
-
 .kendrickbiotext {
   margin-right:250px;
   text-align:center;
   justify-content:center;
   margin-left:450px;
   margin-right:300px;
+}
+
+.kanyebio {
+  width: 300px;
+  border-radius: 150px;
+  margin-left: 100px;
+  margin-top: 50px;
+  filter: brightness(70%);
 }
 
 .soundcloud {
