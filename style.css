@@ -104,6 +104,22 @@ html {
   filter: brightness(70%);
 }
 
+.kanyebiotexttitle {
+  font-size:25px;
+  font-weight:bold;
+  margin-right:-150px;
+  text-align:center;
+  margin-top:-200px;
+}
+
+.kanyebiotext {
+  margin-right:250px;
+  text-align:center;
+  justify-content:center;
+  margin-left:450px;
+  margin-right:300px;
+}
+
 .soundcloud {
   margin-right:65px;
   margin-left:65px;
