@@ -78,6 +78,12 @@ display: flex; justify-content: center;
 display: flex; justify-content: center;
 }
 
+.videolink4text {
+  color:white;
+  text-align:center;
+  padding:60px;
+}
+
 .videolink4text span {
   color:#dc143c;
   font-weight:BOLD;
