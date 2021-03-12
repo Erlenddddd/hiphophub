@@ -133,6 +133,7 @@ html {
 .soundcloud2 {
   margin-right:800px;
   margin-left:800px;
+  z-index:4
 }
 
 .burgermenu div {
