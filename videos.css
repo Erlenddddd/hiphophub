@@ -165,11 +165,11 @@ display: flex; justify-content: center;
 
 p { margin: 0; }
 
+/* Denne koden er for å endre på scrollbaren */
+
 ::-webkit-scrollbar {
   width: 10px;
 }
-
-/* Denne koden er for å endre på scrollbaren */
 
 ::-webkit-scrollbar-track {
   background: #101010;
