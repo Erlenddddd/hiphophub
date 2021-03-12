@@ -295,3 +295,8 @@ html {
   transform: rotate(45deg) translate(-12px,-8px);
   transition: transform 0.5s ease;
 }
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
