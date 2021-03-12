@@ -78,6 +78,15 @@ display: flex; justify-content: center;
 display: flex; justify-content: center;
 }
 
+.videolink4text span {
+  color:#dc143c;
+  font-weight:BOLD;
+}
+
+.videolink4 {
+display: flex; justify-content: center;
+}
+
 .burgermenu div {
   background-color:white;
   height:5px;
