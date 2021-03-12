@@ -150,6 +150,28 @@ html {
   margin-right:300px;
 }
 
+.drakebio {
+  width: 300px;
+  border-radius: 150px;
+  margin-left: 1100px;
+  margin-top: 50px;
+  filter: brightness(70%);
+}
+
+.drakebiotexttitle {
+  font-size:25px;
+  font-weight:bold;
+  margin-right:150px;
+  text-align:center;
+  margin-top:-200px;
+}
+
+.drakebiotext {
+  margin-right:350px;
+  margin-left:350px;
+  width:700px
+}
+
 .soundcloud {
   margin-right:65px;
   margin-left:65px;
@@ -165,6 +187,12 @@ html {
 .soundcloud3 {
   margin-right:65px;
   margin-left:65px;
+  width:1500px
+}
+
+.soundcloud4 {
+  margin-right:1000px;
+  margin-left:1000px;
   width:1500px
 }
 
