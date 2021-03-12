@@ -169,6 +169,8 @@ p { margin: 0; }
   width: 10px;
 }
 
+/* Denne koden er for å endre på scrollbaren */
+
 ::-webkit-scrollbar-track {
   background: #101010;
 }
