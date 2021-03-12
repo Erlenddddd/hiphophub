@@ -301,11 +301,11 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: #000;
+  background: #101010;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #000;
+  background: #101010;
 }
 
 ::-webkit-scrollbar-thumb:hover {
