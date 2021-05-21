@@ -93,7 +93,7 @@ html {
   margin-top:-200px;
   text-decoration:none;
   justify-content:center;
-  display-flex:block;
+  display:block;
 }
 
 .kendrickbiotext {
