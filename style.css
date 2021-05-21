@@ -94,6 +94,7 @@ html {
   justify-content:center;
   display:block;
   color:lightblue;
+  display:flex;
 }
 
 .kendrickbiotext {
